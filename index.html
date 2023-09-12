@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script
+      src="https://kit.fontawesome.com/3797f900d4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="cont">
+      <a href="#"
+        ><i
+          class="fa-solid fa-bars"
+          id="fas"
+          onclick="openmenu()"
+          style="color: white"
+        ></i
+      ></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="./lo.png" class="logo" > -->
+          <p class="logo">
+            <i class="fa-solid fa-spinner fa-spin" style="color: #ffffff;"></i>yourname
+          </p>
+          <div class="box">
+            <ul id="sidemenu">
+              <a href="#"
+                ><i
+                  class="fa-solid fa-circle-xmark"
+                  id="fas"
+                  onclick="closemenu()"
+                ></i
+              ></a>
+              <br />
+              <li>
+                <img
+                  src="./profile.png"
+                  width="100px"
+                  height="100px"
+                  style="border-radius: 50px; margin-left: 0px"
+                /><br />
+                <h4 style="margin-left: -13px; margin-top: 15px">
+                  Your Name
+                </h4>
+                <p
+                  style="
+                    font-family: cursive;
+                    font-style: italic;
+                    margin-left: -24px;
+                    top: 6px;
+                    color: rgb(243, 121, 182);
+                  "
+                >
+                  Live . Learn . Grow.
+                </p>
+              </li>
+              <br />
+              <li>
+                <a href="#header" id="one" onclick="scrollToSection('#header')"
+                  ><i
+                    class="fa-solid fa-house"
+                    style="color: #fafafa; margin-right: 5px"
+                  ></i
+                  >HOME</a
+                >
+              </li>
+              <li>
+                <a href="#about" id="one" onclick="scrollToSection('#about')"
+                  ><i
+                    class="fa-solid fa-user"
+                    style="color: #f4f5f6; margin-right: 5px"
+                  ></i
+                  >ABOUT</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#portfolio"
+                  id="one"
+                  onclick="scrollToSection('#portfolio')"
+                  ><i
+                    class="fa-solid fa-briefcase"
+                    style="color: #ffffff; margin-right: 5px"
+                  ></i
+                  >WORK</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  id="one"
+                  onclick="scrollToSection('#contact')"
+                  ><i
+                    class="fa-solid fa-envelope"
+                    style="color: #ffffff; margin-right: 5px"
+                  ></i
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="header-text">
+          <h1>Hi!</h1>
+          <h1>I'm <span>Your Name</span></h1>
+          <a href="#" class="btn btn1">Resume</a>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div
+            class="about-col-1"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <!-- <img src="./lo.png"> -->
+            <div class="maincont">
+              <div class="thecard">
+                <div class="fc">
+                  <img src="./profile.png" height="400px" width="280px" />
+                </div>
+                <div class="bc">
+                  <p
+                    style="
+                      text-align: center;
+                      margin-bottom: 30px;
+                      margin-top: 100px;
+                      font-weight: 600;
+                      font-size: 20px;
+                    "
+                  >
+                    codechef:<span
+                      style="margin-left: 20px; color: rgb(253, 154, 24)"
+                      >link</span
+                    >
+                  </p>
+                  <br />
+                  <p
+                    style="
+                      text-align: center;
+                      font-size: 20px;
+                      font-weight: 600;
+                      margin-bottom: 30px;
+                    "
+                  >
+                    Github:
+                    <span style="margin-left: 13px; color: rgb(250, 148, 14)"
+                      >link</span
+                    >
+                  </p>
+                  <br />
+                  <p
+                    style="
+                      text-align: center;
+                      font-size: 20px;
+                      font-weight: 600;
+                      margin-bottom: 30px;
+                    "
+                  >
+                    linkedin:
+                    <span style="margin-left: 8px; color: rgb(255, 155, 24)"
+                      >link</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="about-col-2"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <h1 class="sub">About me</h1>
+            <br />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consequatur amet, dignissimos vero nemo nam animi laudantium, iure
+              ab non quia architecto repellendus. Dolorum perferendis dicta ad,
+              minus dignissimos quibusdam non.
+            </p>
+
+            <div class="tab-tiles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Personal
+              </p>
+              <p class="tab-links" onclick="opentab('exp')">Education</p>
+              <p class="tab-links" onclick="opentab('edu')">Skills</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                
+                <li>
+                  <span>PHONE NO.</span><br />
+                  <p>1234567890</p>
+                </li>
+                <li>
+                  <span>EMAIL</span><br />
+                  <p>youremail@gmail.com</p>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="exp">
+              <ul>
+                <li>
+                  <span>degree</span><br />
+                  <p>Pursuing my graduation</p>
+                </li>
+                <li>
+                  <span>INTERMEDIATE</span><br />
+                  <p>97%</p>
+                  <p>college name</p>
+                </li>
+                <li>
+                  <span>10TH</span><br />
+                  <p>93%</p>
+                  <p>school name</p>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="edu">
+              <ul>
+                <li>
+                  <span>Languages</span><br />
+                  <p>...</p>
+                </li>
+                <li>
+                  <span>Front-End</span><br />
+                  <p>...</p>
+                </li>
+                <li>
+                  <span>Back-End</span><br />
+                  <p>...etc.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------services--------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub">My Work</h1>
+        <div class="services-list" data-aos="zoom-in" data-aos-duration="1000">
+          <div>
+            <img
+              src="./giii.png"
+              alt=""
+              style="width: 100%; color: white; border-radius: 100%"
+            />
+            <h2 style="text-align: center">Project1</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quis.
+              Hic quis perspiciatis saepe, at officiis vero repellendus possimus
+              nesciunt laudantium incidunt iste. Aliquam vitae dolore ad
+              quisquam, nulla a.
+            </p>
+            <button><a href="#">visit Github</a></button>
+          </div>
+          <div>
+            <img
+              src="./giii.png"
+              alt=""
+              style="width: 100%; color: white; border-radius: 100%"
+            />
+
+            <h2>Project2</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quis.
+              Hic quis perspiciatis saepe, at officiis vero repellendus possimus
+              nesciunt laudantium incidunt iste. Aliquam vitae dolore ad
+              quisquam, nulla a.
+            </p>
+            <button><a href="#">visit Github</a></button>
+          </div>
+          <div>
+            <img
+              src="./giii.png"
+              alt=""
+              style="width: 100%; color: white; border-radius: 100%"
+            />
+
+            <h2>Project3</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quis.
+              Hic quis perspiciatis saepe, at officiis vero repellendus possimus
+              nesciunt laudantium incidunt iste. Aliquam vitae dolore ad
+              quisquam, nulla a.
+            </p>
+            <button><a href="#">visit Github</a></button>
+
+            <!-- <a href="#">learn more</a> -->
+          </div>
+          <div>
+            <img
+              src="./giii.png"
+              alt=""
+              style="width: 100%; color: white; border-radius: 100%"
+            />
+
+            <h2>Project4</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quis.
+              Hic quis perspiciatis saepe, at officiis vero repellendus possimus
+              nesciunt laudantium incidunt iste. Aliquam vitae dolore ad
+              quisquam, nulla a.
+            </p>
+            <button><a href="#">visit Github</a></button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------portfolio------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub">Achievements and Certification</h1>
+        <div class="work-list" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="work">
+            <img src="./certificate.png" height="320px" />
+            <div class="layer">
+              <a href="#"
+                ><i
+                  class="fa-duotone fa-up-right-from-square"
+                  style="
+                    --fa-primary-color: #f5f5f5;
+                    --fa-secondary-color: #cfcece;
+                    --fa-secondary-opacity: 1;
+                  "
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./certificate.png" height="320px" />
+            <div class="layer">
+              <a href="#"
+                ><i
+                  class="fa-duotone fa-up-right-from-square"
+                  style="
+                    --fa-primary-color: #f5f5f5;
+                    --fa-secondary-color: #cfcece;
+                    --fa-secondary-opacity: 1;
+                  "
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./certificate.png" height="320px"/>
+            <div class="layer">
+              <a href="#"
+                ><i
+                  class="fa-duotone fa-up-right-from-square"
+                  style="
+                    --fa-primary-color: #f5f5f5;
+                    --fa-secondary-color: #cfcece;
+                    --fa-secondary-opacity: 1;
+                  "
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!------------------------------------contact form----------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub">Contact Me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i
+              >&nbspyourname@123
+            </p>
+            <p><i class="fa-solid fa-phone"></i>&nbsp1234567890</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="#" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                placeholder="Your Message"
+                rows="6"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Designed with <i class="fa fa-heart pulse" style="color: red;"></i> by yourname </p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sm = document.getElementById("sidemenu");
+      var scrollPosition = 0;
+      function openmenu() {
+        sm.style.right = "0";
+      }
+      function closemenu() {
+        sm.style.right = "-200px";
+        window.scrollTo(0, scrollPosition);
+      }
+      function scrollToSection(sectionId) {
+        scrollPosition = window.scrollY; // Store the current scroll position
+        document.querySelector(sectionId).scrollIntoView({
+          behavior: "smooth",
+        });
+        closemenu(); // Close the menu after scrolling
+      }
+    </script>
+  </body>
+</html>
